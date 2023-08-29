@@ -389,3 +389,111 @@ p {
 
 /* Aquí termina el codigo de la descripcion */
 
+
+
+
+
+/* Aquí empieza el codigo de los jugadores estelares */
+
+
+.caja3{
+    
+    width: 30%;
+    height: 80%;
+    float: right;
+    padding-left: 50px;
+    
+
+}
+
+.caja3{
+    width: 300px;
+   
+     display:inline-block;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+
+}
+
+.cuadro1{
+
+height: 200px;
+width:200px;
+
+
+
+}
+
+
+.cuadro2{
+
+height: 200px;
+width: 200px;
+padding-left: 30px;
+float: right;
+box-sizing: border-box;
+}
+
+
+
+.cuadro1 img{
+height: 100%;
+width: 100%;
+border-image: 5px;
+max-width: 100%;
+position: relative;
+display: inline-block;
+border-radius: 5px;
+float: left;
+transform: translate(-20%,40%);
+}
+
+.cuadro2 img{
+height: 100%;
+width: 100%;
+border-image: 5px;
+max-width: 100%;
+position: relative;
+display: inline-block;
+border-radius: 5px;
+float: left;
+transform: translate(10%,-60%);
+
+}
+
+.jugadores2 p{
+text-align: center;
+padding-left: 20px;
+font-size: 20px;
+color: white;
+
+
+
+}
+
+.jugadores2 {
+width: 300px;
+transform: translate(-8%, 30%);
+background-color: #201434;
+position: relative; 
+border-radius: 10px;
+overflow: hidden; 
+}
+
+.jugadores2::before {
+content: "";
+position: absolute;
+top: -2px;
+right: -2px;
+bottom: -2px;
+left: -2px;
+background: linear-gradient(to right, #f00, #00f);
+z-index: -1; 
+border-radius: 10px;
+}
+
+
+/* Aquí termina el codigo de los jugadores estelares */
