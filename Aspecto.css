@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+
+
+body{
+    background-color: rgb(23, 23, 68);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p {
+    font-weight: bold;
+}
+
+/*Aquí comienza el codigo de la barra estatica*/
+.contenedor{
+    width: 100%;
+    height: 100px;
+    background-color: #181733 ;
+    border-style: solid;
+    border-width: 0 0 10px 0;
+    border-image: linear-gradient(to right, #f00, #00f) 1;
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999
+}
+
+.barra{
+    width: 100%;
+    height: 40px;
+    background-color:  #0c0b1b ;
+    border-width: 0 0 2px 0;
+    border-style:groove;
+    border-color: #29283d3f;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch;
+    
+}
+
+.barra p {
+    color: #FFC300;
+    
+}
+
+.text_p{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: stretch;
+    margin-top: 0px;
+
+}
+
+
+.barra p:hover {
+    text-decoration: underline;
+  }
+
+*{margin: 0px; padding: 0px;}
+
+.img{
+    
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+    padding-top: -40px;
+    z-index: 0;
+    
+    
+
+}
+
+.icono{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.caja{
+    float: right;
+    
+}
+
+.boton-personalizado{
+    display:inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #af1414;
+    color: #ffffff;
+    border: 2px solid #770f0f;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-top:20px;
+    margin-right: 20px;
+  }
+  
+  .boton-personalizado:hover {
+    background-color: #3d0303;
+    color: #ffffff;
+    border-color: #520303;
+  }
+ 
+
+  .bottom{
+    float: right;
+    margin-top: -15px;
+  }
+ 
+
+  .boton-personalizado1{
+
+    display:inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #af1414;
+    color: #ffffff;
+    border: 2px solid #770f0f;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-top:20px;
+    margin-right: 20px;
+  }
+  
+  .boton-personalizado1:hover {
+    background-color: #3d0303;
+    color: #ffffff;
+    border-color: #520303;
+  }
+
+  
+.tituloh1{
+    display:grid;
+    place-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    padding-left: 15%;
+    
+    
+}
+
+
+.tituloh1 h1{
+    text-align: center;
+    color: #ffc300;
+    
+}
+
+.contenedor_img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+
+/*Hasta aquí es la barra estatica*/
