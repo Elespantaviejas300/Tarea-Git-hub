@@ -207,6 +207,12 @@ p {
     
 }
 
+.imagen1 img{
+    height: 100%;
+    width: 100%;
+    height: auto;
+    
+}
 
 .imagen2{
     
@@ -230,6 +236,13 @@ p {
 }
 
 
+.imagen3 img{
+    height: 100%;
+    width: 100%;
+    height: auto;
+    
+}
+
 .presen::after{
     content: "";
   position: absolute;
@@ -243,3 +256,90 @@ p {
 
 
 /*Aquí termina el codigo de las imagenes y el gradient*/
+
+
+
+
+/*Aquí comienza el codigo de mi deporte favorito */
+
+
+.Desc{
+    height:500px ;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.Desc{
+	display:block;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    
+}
+
+.caja1{
+    
+    width: 300px;
+    height: 300x;
+    padding-left: 5px;
+    float: left;
+    padding-top: 60px;
+    padding-right: 30px;
+}
+
+.caja1 img{
+    height: 100%;
+    width: 100%;
+    border-image: 5px;
+    max-width: 100%;
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    float: left;
+}
+
+.caja1 p{
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%; 
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+
+}
+
+.favorito{
+    padding-right: 100px;
+    padding-bottom:10px;
+    height: 60px;
+    width: 300px;
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: stretch;
+}
+
+.favorito h3{
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(150, 0, 0),#0401b1);
+    -webkit-background-clip: text; 
+    color: transparent;
+
+}
+
+/* Aquí termina el codigo de mi deporte favorito */
